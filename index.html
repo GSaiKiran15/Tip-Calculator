@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <div class="mainBody">
+      <h1>Tip Calculator</h1>
+      <h2>Bill Amount</h2>
+      <input type="text" id="bill" />
+      <h2>Tip Percentage</h2>
+      <input
+        type="text"
+        name="tipPercentage"
+        id="tip"
+        onkeyup="calculateBill()"
+      />
+      <h2>No.of People</h2>
+
+      <div class="buttons">
+        <button onclick="personIncrementer()">+</button>
+        <p id="people"></p>
+        <button onclick="personDecrementor()">-</button>
+      </div>
+      <h2>
+        Final Bill Amount
+        <p id="finalBill">$0</p>
+      </h2>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

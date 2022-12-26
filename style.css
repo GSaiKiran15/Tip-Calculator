@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mainBody {
+  text-align: center;
+}
+
+h1 {
+  font-size: 385%;
+  padding: 50px;
+}
+
+h2 {
+  font-size: larger;
+}
+
+input {
+  width: 15%;
+  height: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: larger;
+}
+
+.buttons {
+  display: block;
+}
